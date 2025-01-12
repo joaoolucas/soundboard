@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Skyline Soundboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="skyline-container">
+        <div class="skyline"></div>
+        <div class="overlay"></div>
+    </div>
+
+    <div class="soundboard">
+        <h1>Neon Skyline Soundboard</h1>
+        <div class="sound-buttons">
+            <button class="sound-btn" data-sound="rain">
+                <span class="icon">🌧</span>
+                Rain
+                <input type="range" class="volume-slider" min="0" max="1" step="0.1" value="0.5">
+            </button>
+            <button class="sound-btn" data-sound="neon">
+                <span class="icon">💡</span>
+                Neon Buzz
+                <input type="range" class="volume-slider" min="0" max="1" step="0.1" value="0.5">
+            </button>
+            <button class="sound-btn" data-sound="sirens">
+                <span class="icon">🚨</span>
+                Sirens
+                <input type="range" class="volume-slider" min="0" max="1" step="0.1" value="0.5">
+            </button>
+            <button class="sound-btn" data-sound="hovercars">
+                <span class="icon">🚗</span>
+                Hovercars
+                <input type="range" class="volume-slider" min="0" max="1" step="0.1" value="0.5">
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
