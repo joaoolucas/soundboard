@@ -162,4 +162,55 @@ h1 {
         font-size: 1.8rem;
         letter-spacing: 0.3em;
     }
+}
+
+.subtitle {
+    font-size: 1rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    color: #00ff9d;
+    opacity: 0.7;
+    animation: pulse 2s infinite;
+}
+
+.twitter-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(10,10,15,0.7);
+    border: 1px solid #00ff9d;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.twitter-icon {
+    width: 24px;
+    height: 24px;
+    fill: #00ff9d;
+    transition: all 0.3s ease;
+}
+
+.twitter-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(0,255,157,0.2);
+    background: rgba(0,255,157,0.1);
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.7;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 0.7;
+    }
 } 
